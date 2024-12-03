@@ -1,10 +1,10 @@
 import React from 'react';
 import ElementTransfer from './component/ElementTransfer';
-
+import './App.css';
 function App() {
   return (
-    <div className="App">
-      <h1>Element Transfer Component</h1>
+    <div className="app-container">
+       <h1 className="centered-heading">ELEMENT TRANSFER</h1>
       <ElementTransfer />
     </div>
   );

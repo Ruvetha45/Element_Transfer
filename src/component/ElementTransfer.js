@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
+import './ElementTransfer.css';
 
 const BucketTransfer = () => {
   const [bucket1, setBucket1] = useState(['Item 1', 'Item 2', 'Item 3', 'Item 5']);
-  const [bucket2, setBucket2] = useState(['Item 4', 'Item 6']);
+  const [bucket2, setBucket2] = useState(['Item 4', 'Item 6', 'Item 7', 'Item 8']);
   const [selectedItems, setSelectedItems] = useState([]);
 
   const handleSelect = (item) => {
